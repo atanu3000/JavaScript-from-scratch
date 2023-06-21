@@ -1,4 +1,5 @@
 // Boolean & comparison operator 
+// boolean are either true or false
 
 let num1 = 10;
 let num2 = 15;
