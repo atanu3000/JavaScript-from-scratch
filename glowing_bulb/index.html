@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .bulbContainer {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        .bulb {
+            background: yellow;
+        }
+
+    </style>
+    <title>Glowing Bulb</title>
+</head>
+<body>
+    <div class="bulbContainer bulb"></div>    
+    <script>
+        setInterval(() => {
+            document.querySelector('.bulbContainer').classList.toggle('bulb');
+        }, 300);
+    </script>
+</body>
+</html>
